@@ -29,13 +29,17 @@ Full [installation guide for Raspberry Pi](rpi_installation.md) has been created
 
 ### Servers
 
-Servers run on Node.js or Python 3.
+Servers run on Node.js or Python 3.5+.
 
 I suggest using [pm2](https://github.com/Unitech/pm2) for managing server processes.
 
 Server documentation in it's own per server
-* [Tellstick](https://github.com/kotio-home-automation/tellstick-server/blob/master/README.md)
-* [Ruuvitag](https://github.com/kotio-home-automation/ruuvitag-server/blob/master/README.md)
+* Tellstick
+    * [Tellstick with Python 3.5+](https://github.com/kotio-home-automation/tellstick-api/blob/master/README.md)
+    * [Tellstick with Node.js](https://github.com/kotio-home-automation/tellstick-server/blob/master/README.md)
+* Ruuvitag
+    * [Ruuvitag with Python 3.5+](https://github.com/kotio-home-automation/ruuvitag-api/blob/master/README.md)
+    * [Ruuvitag with Node.js](https://github.com/kotio-home-automation/ruuvitag-server/blob/master/README.md)
 * [Hue](https://github.com/kotio-home-automation/hue-server/blob/master/README.md)
 * [Data-collector](https://github.com/kotio-home-automation/data-collector/blob/master/README.md)
 

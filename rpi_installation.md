@@ -94,6 +94,16 @@ A great tool for managing your Node.js or Python processes is PM2, more informat
 
 Install the tool via NPM `npm install pm2 -g`
 
+### tellstick-api
+
+A newer implementation of tellstick REST server built with python 3.5
+
+* Clone from [https://github.com/kotio-home-automation/tellstick-api](https://github.com/kotio-home-automation/tellstick-api)
+* Install dependencies `pip3 install -r requirements`
+* Configure sensors if you have any to file _sensors.json_
+* Run tellstick-api `python3 http_api.py sensors.json`
+* Verify functionality from URL [http://yourHost:5001/tellstick/sensors](http://yourHost:5001/tellstick/sensors) or [http://yourHost:5001/tellstick/switches](http://yourHost:5001/tellstick/switches)
+
 ### tellstick-server
 
 * Clone from [https://github.com/kotio-home-automation/tellstick-server](https://github.com/kotio-home-automation/tellstick-server)
@@ -106,14 +116,15 @@ Install the tool via NPM `npm install pm2 -g`
 
 ### ruuvitag-api
 
-A newer implementation of ruuvitag REST server built with python 3
+A newer implementation of ruuvitag REST server built with python 3.5
 
 * Clone from [https://github.com/kotio-home-automation/ruuvitag-api](https://github.com/kotio-home-automation/ruuvitag-api)
 * Install _bluez-hcidump_ that is needed by ruuvitag-sensor `sudo apt install bluez-hcidump`
 * Install _pip_ for python 3 `sudo apt install python3-pip`
-* Install required packages for ruuvitag-api `sudo pip3 install -r requirements.txt`
+* Install required packages for ruuvitag-api `pip3 install -r requirements.txt`
 * Test that ruuvitag-sensor can find your tags (it should print ruuvitag data) `python3 /usr/local/lib/python3.5/dist-packages/ruuvitag_sensor -f`
-* Run ruuvitag-api `sudo python3 http_api.py tags.json`
+* Configure your tags to file _tags.json_
+* Run ruuvitag-api `python3 http_api.py tags.json`
 * Verify functionality from URL [http://yourHost:5000/ruuvitag](http://yourHost:5000/ruuvitag)
 
 ### ruuvitag-server

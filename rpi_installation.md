@@ -168,3 +168,12 @@ Make sure to setup authentication and add admin user & database and user for dat
 
 Get latest grafana from [Grafana download page](https://grafana.com/grafana/download?platform=arm) and follow the instructions.
 
+## Tapo camera API
+
+HTTP API for Tapo Cameras. Implemented and tested with Python 3.9.
+
+* Clone from [https://github.com/kotio-home-automation/tapo-camera-api](https://github.com/kotio-home-automation/tapo-camera-api)
+* Install required packages for ruuvitag-api `pip3 install -r requirements.txt`
+* Configure your cameras to default configuration file _config.json_ or to one of your own choosing
+* Run the API `python3 tapo_camera_api` or `python3 tapo_camera_api your_own_config.json`
+* Verify functionality from URL [http://yourHost:5020/privacy](http://yourHost:5020/privacy)

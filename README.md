@@ -6,6 +6,7 @@ Home automation application for
 * reading sensors via [ruuvitag](https://ruuvitag.com/)
 * controlling [Philips Hue](https://www2.meethue.com)
 * collecting status and sensor data via tellstick and ruuvitag API's
+* controlling privacy mode of [Tapo cameras](https://www.tapo.com/en/product/smart-camera/)
 
 ## Status
 
@@ -15,11 +16,13 @@ Currently the servers are able to
 * commanding and viewing status of tellstick switches and switch groups
 * commanding and viewing status of Philips Hue devices
 * collect sensor and switch status data from ruuvitag and tellstick API's
+* view and control privacy mode of Tapo camera(s)
 
 The web UI is able to
 * view ruuvitag beacon and tellstick sensor data
 * view and command tellstick outlet switches
 * view and command Philips Hue devices
+* view and control privacy mode of Tapo camera(s)
 
 ## Development and running
 
@@ -42,6 +45,7 @@ Server documentation in it's own per server
     * [Ruuvitag with Node.js](https://github.com/kotio-home-automation/ruuvitag-server/blob/master/README.md)
 * [Hue](https://github.com/kotio-home-automation/hue-server/blob/master/README.md)
 * [Data-collector](https://github.com/kotio-home-automation/data-collector/blob/master/README.md)
+* [Tapo cameras](https://github.com/kotio-home-automation/tapo-camera-api/blob/main/README.md)
 
 ### UI
 

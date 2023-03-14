@@ -7,6 +7,7 @@ Home automation application for
 * controlling [Philips Hue](https://www2.meethue.com)
 * collecting status and sensor data via tellstick and ruuvitag API's
 * controlling privacy mode of [Tapo cameras](https://www.tapo.com/en/product/smart-camera/)
+* reading [shelly sensors](https://www.shelly.cloud/)
 
 ## Status
 
@@ -17,9 +18,10 @@ Currently the servers are able to
 * commanding and viewing status of Philips Hue devices
 * collect sensor and switch status data from ruuvitag and tellstick API's
 * view and control privacy mode of Tapo camera(s)
+* receive sensor updates from shelly sensors
 
 The web UI is able to
-* view ruuvitag beacon and tellstick sensor data
+* view ruuvitag beacon, tellstick and shelly sensor data
 * view and command tellstick outlet switches
 * view and command Philips Hue devices
 * view and control privacy mode of Tapo camera(s)
@@ -46,6 +48,7 @@ Server documentation in it's own per server
 * [Hue](https://github.com/kotio-home-automation/hue-server/blob/master/README.md)
 * [Data-collector](https://github.com/kotio-home-automation/data-collector/blob/master/README.md)
 * [Tapo cameras](https://github.com/kotio-home-automation/tapo-camera-api/blob/main/README.md)
+* [Shelly sensors](https://github.com/kotio-home-automation/shelly-http-api/blob/main/README.md)
 
 ### UI
 

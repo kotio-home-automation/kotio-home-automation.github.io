@@ -175,5 +175,16 @@ HTTP API for Tapo Cameras. Implemented and tested with Python 3.9.
 * Clone from [https://github.com/kotio-home-automation/tapo-camera-api](https://github.com/kotio-home-automation/tapo-camera-api)
 * Install required packages for ruuvitag-api `pip3 install -r requirements.txt`
 * Configure your cameras to default configuration file _config.json_ or to one of your own choosing
-* Run the API `python3 tapo_camera_api` or `python3 tapo_camera_api your_own_config.json`
+* Run the API `python3 tapo_camera_api.py` or `python3 tapo_camera_api.py your_own_config.json`
 * Verify functionality from URL [http://yourHost:5020/privacy](http://yourHost:5020/privacy)
+
+## Shelly API
+
+HTTP API for Shelly sensors. Implemented and tested with Python 3.9.
+
+* Clone from [https://github.com/kotio-home-automation/shelly-http-api](https://github.com/kotio-home-automation/shelly-http-api)
+* Install required packages for ruuvitag-api `pip3 install -r requirements.txt`
+* Configure your sensors to default configuration file _id_mappings.json_
+* Run the API `python3 shelly_http_api.py`
+* Verify functionality from URL [http://yourHost:5010/sensor](http://yourHost:5010/sensor)
+
